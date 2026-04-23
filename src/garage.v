@@ -84,7 +84,7 @@ always @(current_state, b, ob, SA, SAB)
 				else 
 					next_state=S7;
 				end
-			default: next_state=S0;	
+			default: next_state=S1;	
 				
 		endcase
 	end		
