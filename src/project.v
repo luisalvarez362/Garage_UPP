@@ -27,7 +27,8 @@ module tt_um_garage_proyect (
     assign uio_oe = 8'b1111_1111;
     assign uio_out[7:0] = 8'b0000_0000;
   // List all unused inputs to prevent warnings
-    wire _unused = &{ui_in[4], ui_in[5], ui_in[6],ui_in[7], 1'b0};
+    wire _unused = &{ena, ui_in[4], ui_in[5], ui_in[6],ui_in[7], 1'b0};
+    wire _unused = &{uio_in[7:0], 8'b0000_0000};
     wire rst=!rst_n;
     tt_um_garage top (
         .clk(clk),
