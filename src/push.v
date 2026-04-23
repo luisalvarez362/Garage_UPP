@@ -39,6 +39,7 @@ always @(current_state, bt)
 				push=1;
      			next_state=S0;
 				end
+			default: next_state=S0;
 		endcase
 	end		
 endmodule
