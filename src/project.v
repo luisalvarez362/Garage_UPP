@@ -20,12 +20,12 @@ module tt_um_garage_project (
     wire rst;
     assign rst=!rst_n;
   // All output pins must be assigned. If not used, assign to 0.
-  //  assign uo_out[2]=0;
-  //  assign uo_out[3]=0;
-  //  assign uo_out[4]=0;
-  //  assign uo_out[5]=0;
-  //  assign uo_out[6]=0;
-  //  assign uo_out[7]=0;
+    assign uo_out[2]=0;
+    assign uo_out[3]=0;
+    assign uo_out[4]=0;
+    assign uo_out[5]=0;
+    assign uo_out[6]=0;
+    assign uo_out[7]=0;
 
     assign uio_oe = 8'b1111_1111;
     assign uio_out[7:0] = 8'b0000_0000;
