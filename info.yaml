@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Garage unit control"      # Project title
+  title:        "IEEE_UPP_Garage unit control"      # Project title
   author:       "Sadrac Santiago, Carlos Romero and Martin Amastal"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Sistema de control para controlar apertura, cierre y paro de un garage con un solo botón"      # One line description of what your project does
